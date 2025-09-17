@@ -56,7 +56,7 @@ jobs:
         env:
           SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/testdb
           SPRING_DATASOURCE_USERNAME: testuser
-          SPRING_DATASOURCE_PASSWORD: testpass
+          SPRING_DATASOURCE_PASSWORDDD: testpass
 
       - name: Generate test report
         uses: dorny/test-reporter@v1
